@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+    <named-config name="mysql">
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/gestion_client</property>
+        <property name="user">root</property>
+        <property name="password"></property>
+        <property name="initialPoolSize">5</property>
+        <property name="maxIdleTime">30</property>
+        <property name="minPoolSize">5</property>
+    </named-config>
+</c3p0-config>
